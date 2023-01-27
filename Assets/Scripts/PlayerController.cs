@@ -15,6 +15,12 @@ public class PlayerController : MonoBehaviour
     private float movementX;
     private float movementY;
 
+    public int collectables;
+
+    public GameObject prefab;
+
+    public AudioSource taco;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +29,11 @@ public class PlayerController : MonoBehaviour
 
         SetCountText();
         winTextOjbect.SetActive(false);
+
+        for(int i = 0; i < collectables - 1; i++)
+        {
+            Instantiate(prefab, new Vector3(Random.Range(-9.5f, 9.5f), 1, Random.Range(-9.5f, 9.5f)), Quaternion.identity, GameObject.FindGameObjectWithTag("PickUp Parent").transform);
+        }
     }
 
     void OnMove(InputValue movementValue)
@@ -35,7 +46,7 @@ public class PlayerController : MonoBehaviour
     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
-        if(count >= 12)
+        if(count >= collectables)
         {
             winTextOjbect.SetActive(true);
         }
@@ -54,6 +65,7 @@ public class PlayerController : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             count++;
+            taco.Play();
 
             SetCountText();
         }
