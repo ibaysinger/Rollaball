@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     public GameObject prefab;
 
     public AudioSource taco;
+    public AudioSource yoquiero;
 
     // Start is called before the first frame update
     void Start()
@@ -49,6 +50,7 @@ public class PlayerController : MonoBehaviour
         if(count >= collectables)
         {
             winTextOjbect.SetActive(true);
+            yoquiero.Play();
         }
     }
 
