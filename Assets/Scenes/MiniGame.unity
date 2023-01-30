@@ -963,7 +963,7 @@ MonoBehaviour:
   speed: 10
   countText: {fileID: 501135948}
   winTextOjbect: {fileID: 1318071628}
-  collectables: 1
+  collectables: 10
   prefab: {fileID: 7092591422661387974, guid: 3f4c19f4db6852a408df96eb4a9bed41, type: 3}
   taco: {fileID: 137155337}
   yoquiero: {fileID: 239433555}
