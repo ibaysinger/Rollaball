@@ -19,8 +19,8 @@ public class PlayerController : MonoBehaviour
 
     public GameObject prefab;
 
-    public AudioSource taco;
-    public AudioSource yoquiero;
+    //public AudioSource taco;
+    //public AudioSource yoquiero;
 
     // Start is called before the first frame update
     void Start()
@@ -50,16 +50,18 @@ public class PlayerController : MonoBehaviour
         if(count >= collectables)
         {
             winTextOjbect.SetActive(true);
-            yoquiero.Play();
+            //yoquiero.Play();
         }
     }
 
+    /**
     private void FixedUpdate()
     {
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);
 
         rb.AddForce(movement * speed);
     }
+    */
 
     private void OnTriggerEnter(Collider other)
     {
@@ -67,7 +69,7 @@ public class PlayerController : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             count++;
-            taco.Play();
+            //taco.Play();
 
             SetCountText();
         }
