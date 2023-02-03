@@ -69,17 +69,11 @@ public class PlayerController : MonoBehaviour
     }
     */
 
-    /**
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("PickUp"))
+        if (other.gameObject.CompareTag("loss"))
         {
             other.gameObject.SetActive(false);
-            count++;
-            //taco.Play();
-
-            SetCountText();
         }
     }
-    */
 }

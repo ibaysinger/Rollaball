@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PickUp
   - PickUp Parent
+  - loss
   layers:
   - Default
   - TransparentFX
