@@ -1,23 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
+//using UnityEngine.InputSystem;
 using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
     public float speed = 0;
-    public TextMeshProUGUI countText;
-    public GameObject winTextOjbect;
+    //public TextMeshProUGUI countText;
+    //public GameObject winTextOjbect;
 
     private Rigidbody rb;
-    private int count;
-    private float movementX;
-    private float movementY;
+    //private int count;
+    //private float movementX;
+    //private float movementY;
 
-    public int collectables;
+    //public int collectables;
 
-    public GameObject prefab;
+    //public GameObject prefab;
 
     //public AudioSource taco;
     //public AudioSource yoquiero;
@@ -26,24 +26,29 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        count = 0;
+        //count = 0;
 
-        SetCountText();
-        winTextOjbect.SetActive(false);
+        //SetCountText();
+        //winTextOjbect.SetActive(false);
 
+        /**
         for(int i = 0; i < collectables - 1; i++)
         {
             Instantiate(prefab, new Vector3(Random.Range(-9.5f, 9.5f), 1, Random.Range(-9.5f, 9.5f)), Quaternion.identity, GameObject.FindGameObjectWithTag("PickUp Parent").transform);
         }
+        **/
     }
 
+    /**
     void OnMove(InputValue movementValue)
     {
         Vector2 movementVector = movementValue.Get<Vector2>();
         movementX = movementVector.x;
         movementY = movementVector.y;
     }
+    */
 
+    /**
     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
@@ -53,6 +58,7 @@ public class PlayerController : MonoBehaviour
             //yoquiero.Play();
         }
     }
+    **/
 
     /**
     private void FixedUpdate()
@@ -63,6 +69,7 @@ public class PlayerController : MonoBehaviour
     }
     */
 
+    /**
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("PickUp"))
@@ -74,4 +81,5 @@ public class PlayerController : MonoBehaviour
             SetCountText();
         }
     }
+    */
 }
