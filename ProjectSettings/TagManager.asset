@@ -7,6 +7,9 @@ TagManager:
   - PickUp
   - PickUp Parent
   - loss
+  - projectile
+  - FxTemporaire
+  - TiltingBoard
   layers:
   - Default
   - TransparentFX

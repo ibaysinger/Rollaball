@@ -767,7 +767,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 562865625}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &990663652
+--- !u!114 &990663661
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -776,7 +776,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 990663651}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2c9efa1c2461ae4ebafdb8979403afc, type: 3}
+  m_Script: {fileID: 11500000, guid: d9ca51d33f185994ea56c0e78f112c27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Joystick: {fileID: 1170409913}
@@ -786,8 +786,6 @@ MonoBehaviour:
   jumpAction:
     actionPath: /actions/platformer/in/Jump
     needsReinit: 0
-  forceMult: 2
-  upMult: 250
   joyMove: 0.01
 --- !u!4 &1113875525 stripped
 Transform:
@@ -1089,7 +1087,7 @@ GameObject:
   - component: {fileID: 1433902531}
   m_Layer: 0
   m_Name: TiltingBoard
-  m_TagString: Untagged
+  m_TagString: TiltingBoard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1118,7 +1116,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1433902529}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b880e7f2207a3344a8dce87e5311124, type: 3}
   m_Name: 
