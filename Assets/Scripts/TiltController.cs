@@ -11,8 +11,6 @@ public class TiltController : MonoBehaviour
 
     //this refers to the vive's touch pad or oculus's joystick
     public SteamVR_Action_Vector2 moveAction = SteamVR_Input.GetAction<SteamVR_Action_Vector2>("platformer", "Move");
-    //this refers to a click event on the touch pad/joystick
-    public SteamVR_Action_Boolean jumpAction = SteamVR_Input.GetAction<SteamVR_Action_Boolean>("platformer", "Jump");
 
     //multiplier for rotation smooth
     private float smooth = 5.0f;
