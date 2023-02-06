@@ -50,10 +50,9 @@ public class TiltController : MonoBehaviour
             //get the touch pad/joystick x/y coordniates of that particular hand
             Vector2 m = moveAction[hand].axis;
             movement = new Vector3((m.x), 0, (m.y));
+            Quaternion target = Quaternion.Euler((m.x * tiltAngle), 0, (m.y * tiltAngle));
+            tiltingBoardRb.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * smooth);
         }
-
-        Quaternion target = Quaternion.Euler((movement.x * tiltAngle), 0, (movement.z * tiltAngle));
-        tiltingBoardRb.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * smooth);
 
         Joystick.localPosition = movement * joyMove;
 
