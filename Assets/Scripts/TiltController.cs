@@ -35,7 +35,7 @@ public class TiltController : MonoBehaviour
         interactable = GetComponent<Interactable>();
 
         //get the ball's Rigidbody so we can add force to it
-        tiltingBoardRb = GameObject.Find("/TiltingBoard").GetComponent<Rigidbody>();
+        tiltingBoardRb = GameObject.Find("TiltingBoard").GetComponent<Rigidbody>();
     }
 
     private void Update()
