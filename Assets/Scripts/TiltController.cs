@@ -42,20 +42,21 @@ public class TiltController : MonoBehaviour
     {
         Vector3 movement = Vector2.zero;
         //if the controller is attached to the hand...
+        
         if (interactable.attachedToHand)
         {
             //get the hand's type, LeftHand or RightHand so that the controller can be used in either hand
             SteamVR_Input_Sources hand = interactable.attachedToHand.handType;
             //get the touch pad/joystick x/y coordniates of that particular hand
             Vector2 m = moveAction[hand].axis;
-            movement = new Vector3((m.x * tiltAngle), 0, (m.y * tiltAngle));
+            movement = new Vector3((m.x), 0, (m.y));
         }
+
+        Quaternion target = Quaternion.Euler((movement.x * tiltAngle), 0, (movement.z * tiltAngle));
+        tiltingBoardRb.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * smooth);
 
         Joystick.localPosition = movement * joyMove;
 
-
-        Quaternion target = Quaternion.Euler(movement);
-        transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * smooth);
 
         // The movement of the ball is done relative to the controller.  
         // To do this, we get the angle with respect to the y-axis (vertical
