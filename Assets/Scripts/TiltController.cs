@@ -49,7 +49,7 @@ public class TiltController : MonoBehaviour
             Vector2 m = moveAction[hand].axis;
             movement = new Vector3((m.x), 0, (m.y));
             Quaternion target = Quaternion.Euler((m.x * tiltAngle), 0, (m.y * tiltAngle));
-            tiltingBoardRb.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime * smooth);
+            tiltingBoardRb.rotation = Quaternion.Slerp(tiltingBoardRb.rotation, target, Time.deltaTime * smooth);
         }
 
         Joystick.localPosition = movement * joyMove;
