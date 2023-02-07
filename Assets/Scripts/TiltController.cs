@@ -69,6 +69,9 @@ public class TiltController : MonoBehaviour
         {
             //teleports ball back to original point
             Ball.position = ballOriginalPosition;
+            
+            //kills the existing movement on the ball
+            Ball.GetComponent<Rigidbody>().velocity = new Vector3(0,0,0);
         }
 
         // The movement of the ball is done relative to the controller.  
