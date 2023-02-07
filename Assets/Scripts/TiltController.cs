@@ -9,8 +9,12 @@ public class TiltController : MonoBehaviour
     // the joystick when moved
     public Transform Joystick;
 
+    public Transform Ball;
+
     //this refers to the vive's touch pad or oculus's joystick
     public SteamVR_Action_Vector2 moveAction = SteamVR_Input.GetAction<SteamVR_Action_Vector2>("platformer", "Move");
+    //this refers to a click event on the touch pad/joystick
+    public SteamVR_Action_Boolean jumpAction = SteamVR_Input.GetAction<SteamVR_Action_Boolean>("platformer", "Jump");
 
     //multiplier for rotation smooth
     private float smooth = 5.0f;
@@ -27,6 +31,8 @@ public class TiltController : MonoBehaviour
     //game plane's Rigidbody
     private Rigidbody tiltingBoardRb;
 
+    private Vector3 ballOriginalPosition;
+
     private void Start()
     {
         //get the Interactable script on this GameObject (the controller)
@@ -34,11 +40,14 @@ public class TiltController : MonoBehaviour
 
         //get the ball's Rigidbody so we can add force to it
         tiltingBoardRb = GameObject.Find("TiltingBoard").GetComponent<Rigidbody>();
+
+        ballOriginalPosition = Ball.position;
     }
 
     private void Update()
     {
         Vector3 movement = Vector2.zero;
+        bool reset = false;
         //if the controller is attached to the hand...
         
         if (interactable.attachedToHand)
@@ -50,10 +59,17 @@ public class TiltController : MonoBehaviour
             movement = new Vector3((m.x), 0, (m.y));
             Quaternion target = Quaternion.Euler((m.x * tiltAngle), 0, (m.y * tiltAngle));
             tiltingBoardRb.rotation = Quaternion.Slerp(tiltingBoardRb.rotation, target, Time.deltaTime * smooth);
+
+            reset = jumpAction[hand].stateDown;
         }
 
         Joystick.localPosition = movement * joyMove;
 
+        if (reset)
+        {
+            //teleports ball back to original point
+            Ball.position = ballOriginalPosition;
+        }
 
         // The movement of the ball is done relative to the controller.  
         // To do this, we get the angle with respect to the y-axis (vertical
