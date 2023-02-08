@@ -123,6 +123,28 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &13370115 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4747870808250218446, guid: a4d0f350ca39d3e48bd3b48423a33682,
+    type: 3}
+  m_PrefabInstance: {fileID: 1080056397}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &13370119
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13370115}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &30213608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -945,6 +967,28 @@ Transform:
   m_Father: {fileID: 536608964}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &263666844 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2890596775507166220, guid: 4ba09926a9e958d4281eb09665718269,
+    type: 3}
+  m_PrefabInstance: {fileID: 1865395821}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &263666848
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263666844}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &305083283
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3978,7 +4022,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a4d0f350ca39d3e48bd3b48423a33682,
         type: 3}
       propertyPath: m_Name
-      value: handle_LF
+      value: Left Handle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4d0f350ca39d3e48bd3b48423a33682, type: 3}
@@ -6360,7 +6404,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4ba09926a9e958d4281eb09665718269,
         type: 3}
       propertyPath: m_Name
-      value: handle_RT
+      value: Right Handle
       objectReference: {fileID: 0}
     - target: {fileID: 2318316720779448971, guid: 4ba09926a9e958d4281eb09665718269,
         type: 3}

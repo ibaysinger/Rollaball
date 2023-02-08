@@ -31,7 +31,12 @@ public class TiltController : MonoBehaviour
     //game plane's Rigidbody
     private Rigidbody tiltingBoardRb;
 
+    //The Ball's Original Position at Start
     private Vector3 ballOriginalPosition;
+
+    private Rigidbody HandleRight;
+
+    private Rigidbody HandleLeft;
 
     //sound that plays when player picks up controller
     public AudioClip GrabbedSound;
@@ -49,6 +54,10 @@ public class TiltController : MonoBehaviour
 
         //get the ball's Rigidbody so we can add force to it
         tiltingBoardRb = GameObject.Find("TiltingBoard").GetComponent<Rigidbody>();
+
+        HandleRight = GameObject.Find("handle_RT").GetComponent<Rigidbody>();
+
+        HandleLeft = GameObject.Find("handle_LF").GetComponent<Rigidbody>();
 
         ballOriginalPosition = Ball.position;
     }
@@ -72,8 +81,11 @@ public class TiltController : MonoBehaviour
             //get the touch pad/joystick x/y coordniates of that particular hand
             Vector2 m = moveAction[hand].axis;
             movement = new Vector3((m.x), 0, (m.y));
-            Quaternion target = Quaternion.Euler((m.x * tiltAngle), 0, (m.y * tiltAngle));
-            tiltingBoardRb.rotation = Quaternion.Slerp(tiltingBoardRb.rotation, target, Time.deltaTime * smooth);
+            Quaternion targetBoard = Quaternion.Euler((m.x * tiltAngle), 0, (m.y * tiltAngle));
+            Quaternion targetHandle = Quaternion.Euler(-(m.y * tiltAngle), 90, 0); //changed to 90 to adjust weird rotation when grabbing controller
+            tiltingBoardRb.rotation = Quaternion.Slerp(tiltingBoardRb.rotation, targetBoard, Time.deltaTime * smooth);
+            HandleRight.rotation = Quaternion.Slerp(HandleRight.rotation, targetHandle, Time.deltaTime * smooth);
+            HandleLeft.rotation = Quaternion.Slerp(HandleLeft.rotation, targetHandle, Time.deltaTime * smooth);
 
             reset = jumpAction[hand].stateDown;
         } else if (isBeingHeld == true)
