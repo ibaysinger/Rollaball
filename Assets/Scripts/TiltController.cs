@@ -33,6 +33,15 @@ public class TiltController : MonoBehaviour
 
     private Vector3 ballOriginalPosition;
 
+    //sound that plays when player picks up controller
+    public AudioClip GrabbedSound;
+
+    //Audio Source where game sounds are played through
+    public AudioSource source;
+
+    //boolean to track if controller hold status changed
+    private bool isBeingHeld = false;
+
     private void Start()
     {
         //get the Interactable script on this GameObject (the controller)
@@ -52,6 +61,12 @@ public class TiltController : MonoBehaviour
         
         if (interactable.attachedToHand)
         {
+            if(isBeingHeld == false)
+            {
+                isBeingHeld = true;
+                source.clip = GrabbedSound;
+                source.Play();
+            }
             //get the hand's type, LeftHand or RightHand so that the controller can be used in either hand
             SteamVR_Input_Sources hand = interactable.attachedToHand.handType;
             //get the touch pad/joystick x/y coordniates of that particular hand
@@ -61,6 +76,9 @@ public class TiltController : MonoBehaviour
             tiltingBoardRb.rotation = Quaternion.Slerp(tiltingBoardRb.rotation, target, Time.deltaTime * smooth);
 
             reset = jumpAction[hand].stateDown;
+        } else if (isBeingHeld == true)
+        {
+            isBeingHeld = false;
         }
 
         Joystick.localPosition = movement * joyMove;
