@@ -200,6 +200,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -232,11 +237,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30213610}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &30213615
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30213610}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010000003, y: 0.009651761, z: 0.19033031}
+  m_Center: {x: 0.005000031, y: 0.00017407443, z: -0.00000071525574}
 --- !u!1001 &53554697
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -314,6 +332,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -346,11 +369,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 53554699}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &53554704
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53554699}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
+  m_Center: {x: 0.005, y: 0.00017407443, z: 0}
 --- !u!1001 &117085020
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -428,6 +464,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -460,11 +501,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 117085022}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &117085027
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117085022}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010000003, y: 0.009651761, z: 0.19033031}
+  m_Center: {x: 0.005000028, y: 0.00017407443, z: 0.00000071525574}
 --- !u!1 &126604748
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,6 +721,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -699,11 +758,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 177556486}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &177556491
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177556486}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
+  m_Center: {x: 0.005, y: 0.00017407443, z: 0.00000017881393}
 --- !u!1001 &259648861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -781,6 +853,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -813,11 +890,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 259648863}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &259648868
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259648863}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010000003, y: 0.009651761, z: 0.19033031}
+  m_Center: {x: 0.005000016, y: 0.00017407443, z: 0.00000047683716}
 --- !u!1 &261173208
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,6 +941,7 @@ Transform:
   - {fileID: 1080056398}
   - {fileID: 1865395822}
   - {fileID: 1805943627}
+  - {fileID: 1763932556}
   m_Father: {fileID: 536608964}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -931,6 +1022,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -963,11 +1059,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 305083285}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &305083290
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305083285}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010000003, y: 0.009651761, z: 0.19033031}
+  m_Center: {x: 0.0050000087, y: 0.00017407443, z: -0.0000014305115}
 --- !u!1001 &307525854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1102,6 +1211,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -1134,11 +1248,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 309036293}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &309036298
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309036293}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010000003, y: 0.009651761, z: 0.19033031}
+  m_Center: {x: 0.005000031, y: 0.00017407443, z: 0.00000047683716}
 --- !u!1001 &313806334
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1216,6 +1343,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -1248,11 +1380,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 313806336}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &313806341
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313806336}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.009651761, z: 0.19033025}
+  m_Center: {x: 0.005, y: 0.00017407443, z: 0.00000008940697}
 --- !u!1001 &351816128
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1330,6 +1475,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -1362,11 +1512,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 351816130}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &351816135
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351816130}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.009651761, z: 0.1903303}
+  m_Center: {x: 0.005, y: 0.00017407443, z: 0.000000059604645}
 --- !u!4 &370968039 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9,
@@ -1450,6 +1613,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -1482,11 +1650,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 375769513}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &375769518
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375769513}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
+  m_Center: {x: 0.005000164, y: 0.00017410424, z: 0.000000018626451}
 --- !u!1 &380443002
 GameObject:
   m_ObjectHideFlags: 0
@@ -1639,6 +1820,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -1671,11 +1857,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 464129251}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &464129256
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464129251}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010000003, y: 0.009651761, z: 0.19033031}
+  m_Center: {x: 0.005000031, y: 0.00017407443, z: 0.0000019073486}
 --- !u!1 &536608963
 GameObject:
   m_ObjectHideFlags: 0
@@ -1699,7 +1898,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 536608963}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.2067213, y: -0.36922932, z: -0.52650666}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1711,6 +1910,7 @@ Transform:
   - {fileID: 1114179389}
   - {fileID: 1437759293}
   - {fileID: 370968039}
+  - {fileID: 1158192063}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1791,6 +1991,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -1823,11 +2028,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 555828779}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &555828784
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555828779}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
+  m_Center: {x: 0.005, y: 0.00017407443, z: 0.000000059604645}
 --- !u!1001 &564259221
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1905,6 +2123,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -1937,11 +2160,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 564259223}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &564259228
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564259223}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
+  m_Center: {x: 0.005, y: 0.00017407443, z: 0.00000017881393}
 --- !u!1001 &566337719
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2019,6 +2255,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -2051,11 +2292,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 566337721}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &566337726
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566337721}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
+  m_Center: {x: 0.005, y: 0.00017407443, z: 0.000000029802322}
 --- !u!1 &611766449
 GameObject:
   m_ObjectHideFlags: 0
@@ -2178,12 +2432,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 611766449}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d0cdec63f5ab34b8995e05bd508393, type: 3}
+  m_Script: {fileID: 11500000, guid: d50051e5796b1584db131162e65544f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  WoodSounds:
+  - {fileID: 8300000, guid: 034d605e323bfd04eb829d274e6a57a2, type: 3}
+  - {fileID: 8300000, guid: 3ac01d4f8cfb6ed4f81e79d5c8e9f58b, type: 3}
+  - {fileID: 8300000, guid: 0138f3cf6b8053c4dbe0b6d3712586b1, type: 3}
+  LoseSound: {fileID: 8300000, guid: e1a560a69e2c01f48bcd7075e497002f, type: 3}
 --- !u!1001 &705845937
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2261,6 +2519,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -2293,11 +2556,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705845939}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &705845944
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705845939}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010000003, y: 0.009651761, z: 0.19033031}
+  m_Center: {x: 0.0050000385, y: 0.00017407443, z: -0.000000834465}
 --- !u!1001 &729998518
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2375,6 +2651,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3527442428118335533, guid: ce4a44e5f07c4aa4896fdc021a1b63de,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ce4a44e5f07c4aa4896fdc021a1b63de,
         type: 3}
       propertyPath: m_Name
@@ -2407,11 +2688,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 729998520}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: -0.0049997615, y: 0.00017408933, z: 0}
+--- !u!65 &729998525
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729998520}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
+  m_Center: {x: -0.004999851, y: 0.00017410424, z: 0.000000018626451}
 --- !u!1001 &736785762
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2489,6 +2783,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -2521,11 +2820,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736785764}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &736785769
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736785764}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
+  m_Center: {x: 0.005, y: 0.00017407443, z: 0.00000014901161}
 --- !u!1001 &762479291
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2603,6 +2915,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -2635,11 +2952,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762479293}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &762479298
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762479293}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
+  m_Center: {x: 0.005, y: 0.00017407443, z: -0.00000017881393}
 --- !u!1001 &829982730
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2717,6 +3047,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -2749,11 +3084,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 829982732}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &829982737
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829982732}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.009651761, z: 0.1903303}
+  m_Center: {x: 0.005, y: 0.00017407443, z: 0.00000011920929}
 --- !u!1001 &836283482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2924,6 +3272,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -2956,11 +3309,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 845831980}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &845831985
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845831980}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010000003, y: 0.009651761, z: 0.1903303}
+  m_Center: {x: 0.0049999864, y: 0.00017407443, z: -0.000002503395}
 --- !u!1001 &915156933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3038,6 +3404,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -3070,11 +3441,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 915156935}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &915156940
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915156935}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010000003, y: 0.009651761, z: 0.19033031}
+  m_Center: {x: 0.004999963, y: 0.00017407443, z: 0.0000047683716}
 --- !u!1001 &930868812
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3152,6 +3536,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -3184,11 +3573,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930868814}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &930868819
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930868814}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.009651761, z: 0.19033025}
+  m_Center: {x: 0.005, y: 0.00017407443, z: 0.00000017881393}
 --- !u!1001 &933191079
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3266,6 +3668,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -3298,11 +3705,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 933191081}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &933191086
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933191081}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
+  m_Center: {x: 0.005, y: 0.00017407443, z: -0.00000011920929}
 --- !u!1001 &1056768682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3380,6 +3800,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -3412,11 +3837,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1056768684}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &1056768689
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056768684}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
+  m_Center: {x: 0.005, y: 0.00017407443, z: 0.00000011920929}
 --- !u!1001 &1080056397
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3589,6 +4027,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -3621,11 +4064,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095917958}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &1095917963
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095917958}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
+  m_Center: {x: 0.005, y: 0.00017407443, z: -0.00000008940697}
 --- !u!4 &1113875525 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000013914614588, guid: e7af05fa230061c4da07e8ceda602506,
@@ -3807,6 +4263,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -3839,11 +4300,56 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1128384968}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &1128384973
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128384968}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010000003, y: 0.009651761, z: 0.1903303}
+  m_Center: {x: 0.0050000087, y: 0.00017407443, z: -0.0000023841858}
+--- !u!1 &1158192062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1158192063}
+  m_Layer: 0
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1158192063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158192062}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13.6, y: -6.03, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2087658966}
+  m_Father: {fileID: 536608964}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1262420171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3921,6 +4427,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3571241492162157791, guid: 8a85b4c97529f5e4f954c935d3946f09,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8a85b4c97529f5e4f954c935d3946f09,
         type: 3}
       propertyPath: m_Name
@@ -3953,11 +4464,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1262420173}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.17033027, y: 0.009651761, z: 0.01}
   m_Center: {x: 0.00000023841858, y: 0.00017408933, z: -0.005}
+--- !u!65 &1262420178
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262420173}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.17033027, y: 0.009651761, z: 0.01}
+  m_Center: {x: 0.00000014901161, y: 0.00017410424, z: -0.005}
 --- !u!1001 &1276115542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4035,6 +4559,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -4067,11 +4596,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1276115544}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &1276115549
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276115544}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010000003, y: 0.009651761, z: 0.19033031}
+  m_Center: {x: 0.005000031, y: 0.00017407443, z: 0.000002861023}
 --- !u!1 &1306368502
 GameObject:
   m_ObjectHideFlags: 0
@@ -4296,6 +4838,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -4328,11 +4875,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379436830}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &1379436835
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379436830}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010000003, y: 0.009651761, z: 0.19033031}
+  m_Center: {x: 0.0050000423, y: 0.00017407443, z: -0.0000014305115}
 --- !u!1001 &1428670683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4410,6 +4970,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -4442,11 +5007,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1428670685}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &1428670690
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428670685}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010000003, y: 0.009651761, z: 0.19033031}
+  m_Center: {x: 0.005000031, y: 0.00017407443, z: 0.000002861023}
 --- !u!4 &1437759293 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283,
@@ -4666,6 +5244,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d9745b65bf0514840a7a9d8c46b24125, type: 2}
+    - target: {fileID: -3898721217354406637, guid: ff893105eb9e9134aa3a8d6d035fa919,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ff893105eb9e9134aa3a8d6d035fa919,
         type: 3}
       propertyPath: m_Name
@@ -4693,11 +5276,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479473630}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.17033027, y: 0.009651761, z: 0.01}
   m_Center: {x: 0.00000023841858, y: 0.00017408933, z: 0.005}
+--- !u!65 &1479473635
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479473630}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.17033027, y: 0.009651761, z: 0.01}
+  m_Center: {x: 0.00000014901161, y: 0.00017410424, z: 0.0050000297}
 --- !u!1001 &1487363705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4775,6 +5371,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -4807,11 +5408,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1487363707}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &1487363712
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487363707}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
+  m_Center: {x: 0.005, y: 0.00017407443, z: 0.000000059604645}
 --- !u!1001 &1506233501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4889,6 +5503,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -4921,11 +5540,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1506233503}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &1506233508
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506233503}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.009651761, z: 0.19033024}
+  m_Center: {x: 0.005, y: 0.00017407443, z: 0.00000008940697}
 --- !u!4 &1539864573 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000013232486850, guid: b209c30bc3eb7884781069adc59ed447,
@@ -5009,6 +5641,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -5041,11 +5678,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1627906248}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &1627906253
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627906248}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
+  m_Center: {x: 0.005, y: 0.00017407443, z: 0.000000029802322}
 --- !u!1001 &1738046320
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5123,6 +5773,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -5155,11 +5810,78 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1738046322}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &1738046327
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738046322}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.009651761, z: 0.19033025}
+  m_Center: {x: 0.005, y: 0.00017407443, z: 0}
+--- !u!1 &1763932555
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1763932556}
+  - component: {fileID: 1763932558}
+  - component: {fileID: 1763932557}
+  m_Layer: 0
+  m_Name: LoseTrigger
+  m_TagString: Lose
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1763932556
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763932555}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0156, y: 0.0112, z: 0.277}
+  m_LocalScale: {x: 0.5, y: 0.001, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 261173209}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1763932557
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763932555}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1763932558
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763932555}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1783063578
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5237,6 +5959,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -5269,11 +5996,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1783063580}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &1783063585
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783063580}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010000003, y: 0.009651761, z: 0.19033031}
+  m_Center: {x: 0.005000031, y: 0.00017407443, z: -0.0000030994415}
 --- !u!1001 &1805943626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5446,6 +6186,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -5478,11 +6223,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1830984637}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &1830984642
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830984637}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010000003, y: 0.009651761, z: 0.19033031}
+  m_Center: {x: 0.0050000385, y: 0.00017407443, z: 0.000002026558}
 --- !u!1001 &1865395821
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5627,6 +6385,26 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!1 &1932968688 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d6172fd9de9505c42bb0bff0362fed1e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1805943626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1932968689
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932968688}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1980268763
 GameObject:
   m_ObjectHideFlags: 0
@@ -5901,6 +6679,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -5933,11 +6716,152 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2065995389}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &2065995394
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065995389}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010000003, y: 0.009651761, z: 0.19033034}
+  m_Center: {x: 0.005000031, y: 0.00017407443, z: 0.0000034570694}
+--- !u!1 &2087658965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2087658966}
+  - component: {fileID: 2087658967}
+  m_Layer: 0
+  m_Name: WoodSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2087658966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087658965}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1158192063}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &2087658967
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087658965}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.105
+  m_Pitch: 0.52
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &2138998992
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6015,6 +6939,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7323065083256322521, guid: 986b125c6dbb4254380f73945e936a22,
+        type: 3}
+      propertyPath: m_TagString
+      value: Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 986b125c6dbb4254380f73945e936a22,
         type: 3}
       propertyPath: m_Name
@@ -6047,8 +6976,21 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2138998994}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
   m_Center: {x: 0.0050002383, y: 0.00017408933, z: 0}
+--- !u!65 &2138998999
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138998994}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.009651761, z: 0.19033027}
+  m_Center: {x: 0.005, y: 0.00017407443, z: 0.00000008009374}

@@ -10,6 +10,8 @@ TagManager:
   - projectile
   - FxTemporaire
   - TiltingBoard
+  - Wood
+  - Lose
   layers:
   - Default
   - TransparentFX

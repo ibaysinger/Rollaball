@@ -73,16 +73,5 @@ public class TiltController : MonoBehaviour
             //kills the existing movement on the ball
             Ball.GetComponent<Rigidbody>().velocity = new Vector3(0,0,0);
         }
-
-        // The movement of the ball is done relative to the controller.  
-        // To do this, we get the angle with respect to the y-axis (vertical
-        // in world space)
-
-        /**
-        float rot = transform.eulerAngles.y;
-        movement = Quaternion.AngleAxis(rot, Vector3.up) * movement;
-        */
-
-
     }
 }
